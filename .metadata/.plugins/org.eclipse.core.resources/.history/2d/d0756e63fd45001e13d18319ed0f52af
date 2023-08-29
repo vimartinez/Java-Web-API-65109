@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ej01 - Saludo</title>
+</head>
+<body>
+<h2>Ejemplo Servlet Saludo</h2>
+<form action="Saludo" method="get">
+	<label for="saludotxt">Ingresá tu nombre</label>
+	<input type="text" name="saludotxt" id="saludotxt">
+	<button type="submit"> Enviar</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.jdt.core
+1557333479.index
+1929564464.index
+1865797976.index
+1024446143.index
