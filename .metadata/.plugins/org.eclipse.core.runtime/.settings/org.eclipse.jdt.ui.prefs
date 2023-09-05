@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="model.Usuario"><rhs name\="model.Usuario"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="model.Usuario"><rhs name\="model.Usuario"/></lhs><lhs name\="com.educacionit.model.Product"><rhs name\="com.educacionit.model.Product"/></lhs><lhs name\="com.educacionit.dao.DAO"><rhs name\="com.educacionit.dao.ProductDAO"/></lhs><lhs name\="com.educacionit.dao.MySQLConnection"><rhs name\="com.educacionit.dao.ProductDAO"/></lhs><lhs name\="com.educacionit.dao.ProductDAO"><rhs name\="com.educacionit.dao.ProductDAO"/></lhs><lhs name\="com.educacionit.service.ProductService"><rhs name\="com.educacionit.service.ProductService"/></lhs></history>
 content_assist_number_of_computers=17
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2

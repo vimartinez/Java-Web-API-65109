@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Ej01/C:\/Users\/Vic\/.m2\/repository\/javax\/servlet\/javax.servlet-api\/4.0.1\/javax.servlet-api-4.0.1.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.nondependency=/=/=/maven.groupId=/javax.servlet=/=/maven.artifactId=/javax.servlet-api=/=/maven.version=/4.0.1=/=/maven.scope=/provided=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1663878734163"/>
+    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{DAO.java[DAO" modifiers="513" timestamp="1693872684989"/>
+    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{MySQLConnection.java[MySQLConnection" modifiers="513" timestamp="1693872354386"/>
+    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.ws{ProductosWs.java[ProductosWs" modifiers="513" timestamp="1693873846347"/>
 </typeInfoHistroy>
