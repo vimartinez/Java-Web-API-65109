@@ -12,6 +12,9 @@ public class ProductDAO implements DAO<Product, Long>, MySQLConnection {
 	
 	private String getAllProducts = "SELECT id, nombre, descripcion, precio FROM Product;";
 	private String getProductById = "SELECT id, nombre, descripcion, precio FROM Product WHERE id = ?";
+	private String addProduct = "INSERT INTO Product (id, nombre, descripcion, precio) VALUES(?, ?, ?, ?)";
+	private String delProduct = "DELETE FROM Product WHERE id = ?";
+	private String updProduct = "UPDATE Product SET nombre=?, descripcion=?, precio=? WHERE id=?";
 	
 	private PreparedStatement psQuery;
 
@@ -39,20 +42,55 @@ public class ProductDAO implements DAO<Product, Long>, MySQLConnection {
 
 	@Override
 	public Boolean add(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		Boolean resultado = false;
+		
+		try {
+			psQuery = conectarDB().prepareStatement(addProduct);
+			psQuery.setLong(1, product.getId());
+			psQuery.setString(2, product.getNombre());
+			psQuery.setString(3, product.getDescripcion());
+			psQuery.setFloat(4, product.getPrecio());
+			
+			if(psQuery.executeUpdate()==1) resultado = true;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return resultado;
 	}
 
 	@Override
 	public Boolean upd(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		Boolean resultado = false;
+		
+		try {
+			psQuery = conectarDB().prepareStatement(updProduct);
+			psQuery.setString(1, product.getNombre());
+			psQuery.setString(2, product.getDescripcion());
+			psQuery.setFloat(3, product.getPrecio());
+			psQuery.setLong(4, product.getId());
+			if(psQuery.executeUpdate()==1) resultado = true;
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return resultado;
 	}
 
 	@Override
 	public Boolean del(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		Boolean resultado = false;
+		try {
+			psQuery = conectarDB().prepareStatement(delProduct);
+			psQuery.setLong(1, product.getId());
+			
+			if(psQuery.executeUpdate()==1) resultado = true;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+		return resultado;
 	}
 
 	@Override

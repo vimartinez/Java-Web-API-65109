@@ -21,21 +21,19 @@ public class ProductosWsImpl implements ProductosWs {
 	}
 
 	@Override
+	@WebMethod
 	public Boolean addProduct(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		return productService.addProduct(product);
 	}
 
 	@Override
 	public Boolean updProduct(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		return productService.updProduct(product);
 	}
 
 	@Override
 	public Boolean delProduct(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		return productService.del(product);
 	}
 
 	@Override
