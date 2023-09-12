@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{DAO.java[DAO" modifiers="513" timestamp="1693872684989"/>
-    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{MySQLConnection.java[MySQLConnection" modifiers="513" timestamp="1693872354386"/>
-    <typeInfo handle="=Ej03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.ws{ProductosWs.java[ProductosWs" modifiers="513" timestamp="1693873846347"/>
+    <typeInfo handle="=Ej04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{DAO.java[DAO" modifiers="513" timestamp="1693874580422"/>
+    <typeInfo handle="=Ej04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{MySQLConnection.java[MySQLConnection" modifiers="513" timestamp="1694475688422"/>
 </typeInfoHistroy>

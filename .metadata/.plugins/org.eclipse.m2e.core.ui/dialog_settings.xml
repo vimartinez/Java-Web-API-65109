@@ -19,6 +19,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej03"/>
 			<item value="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej02"/>
 			<item value="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej01"/>
 		</list>
@@ -63,12 +64,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Ej04"/>
 			<item value="Ej03"/>
 			<item value="Ej02"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Ej04"/>
 			<item value="Ej03"/>
 			<item value="Ej02"/>
 		</list>
