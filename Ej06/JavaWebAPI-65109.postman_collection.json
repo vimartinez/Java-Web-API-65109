@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "099a53bb-1ac2-41e1-8ac3-bc3941618bc3",
+		"name": "JavaWebAPI-65109",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7489244"
+	},
+	"item": [
+		{
+			"name": "Ej06",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Ej06/rest/inicial/salu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Ej06",
+						"rest",
+						"inicial",
+						"salu"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
