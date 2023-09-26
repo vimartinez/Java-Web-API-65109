@@ -34,4 +34,13 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.educacionit.dao.CitiesDao"/>
+    <fullyQualifiedTypeName name="com.educacionit.ws.DadoServiceLocator"/>
+    <fullyQualifiedTypeName name="com.educacionit.ws.DadoPortBindingStub"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.ApplicationPath"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+    <fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 </qualifiedTypeNameHistroy>

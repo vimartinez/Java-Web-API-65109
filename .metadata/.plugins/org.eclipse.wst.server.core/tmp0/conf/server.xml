@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ej01" path="/Ej01" reloadable="true" source="org.eclipse.jst.jee.server:Ej01"/><Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ej06" path="/Ej06" reloadable="true" source="org.eclipse.jst.jee.server:Ej06"/></Host>
+      <Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ej01" path="/Ej01" reloadable="true" source="org.eclipse.jst.jee.server:Ej01"/><Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ej06" path="/Ej06" reloadable="true" source="org.eclipse.jst.jee.server:Ej06"/><Context docBase="D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ej07" path="/Ej07" reloadable="true" source="org.eclipse.jst.jee.server:Ej07"/></Host>
     </Engine>
   </Service>
 </Server>

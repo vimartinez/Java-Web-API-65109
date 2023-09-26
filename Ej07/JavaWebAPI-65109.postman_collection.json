@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "099a53bb-1ac2-41e1-8ac3-bc3941618bc3",
+		"name": "JavaWebAPI-65109",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7489244"
+	},
+	"item": [
+		{
+			"name": "Ej06",
+			"item": [
+				{
+					"name": "Ej06",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Ej06/rest/inicial/salu",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej06",
+								"rest",
+								"inicial",
+								"salu"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ej07",
+			"item": [
+				{
+					"name": "getUserById-V1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V1/users/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V1",
+								"users",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUserById-V2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V2/users/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V2",
+								"users",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addUser-V2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"3\",\r\n    \"nombreApellido\": \"Lionel Messi2\",\r\n    \"mail\": \"messi2@gmail.com\",\r\n    \"direccion\": \"Miami2\",\r\n    \"clave\": \"1234qwer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V2/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V2",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllUsers-V2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V2/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V2",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delUser-V2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n        \"id\": 9,\r\n        \"nombreApellido\": \"Lionel Messi2\",\r\n        \"mail\": \"messi2@gmail.com\",\r\n        \"direccion\": \"Miami2\",\r\n        \"clave\": \"62c8ad0a15d9d1ca38d5dee762a16e01\"\r\n    },",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V2/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V2",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updUser-V2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"3\",\r\n    \"nombreApellido\": \"Angel Di Maria\",\r\n    \"mail\": \"fideo@gmail.com\",\r\n    \"direccion\": \"Calle Corrientes 1234\",\r\n    \"clave\": \"1234\"\r\n  \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/Ej07/jwa/V2/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Ej07",
+								"jwa",
+								"V2",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
