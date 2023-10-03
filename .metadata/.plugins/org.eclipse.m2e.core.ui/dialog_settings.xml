@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Ej07"/>
 			<item value="Ej06"/>
 			<item value="Ej01"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Ej07"/>
 			<item value="Ej06"/>
 			<item value="Ej01"/>
 		</list>
