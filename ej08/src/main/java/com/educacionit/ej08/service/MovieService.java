@@ -27,4 +27,35 @@ public class MovieService {
 		return movieRepository.findById(idMovie);
 	}
 
+	public void delMovie(Long idMovie) {
+		  movieRepository.deleteById(idMovie);
+		
+	}
+
+	public void updMovie(Movie movie) {
+		// buscar si existe el objeto a modificar
+		// verificar uno a uno los atributos y actualizar solo aquellos que se recibieron
+		movieRepository.save(movie);
+	}
+
+	public List<Movie> getAllMoviesByYear(Integer year) {
+		return movieRepository.findByYearOfRelease(year);
+	}
+
+	public List<Movie> getAllMoviesByYearLessThan(Integer year) {
+		return movieRepository.findByYearOfReleaseLessThan(year);
+	}
+
+	public List<Movie> getAllMoviesByYearNative(Integer year) {
+		return movieRepository.getAllMoviesByYearNative(year);
+	}
+
+	public List<Movie> getAllMoviesByYearCriteria(Integer year) {
+		return movieRepository.getAllMoviesByYearCriteria(year);
+	}
+
+	public List<Movie> getAllMoviesByYearAndDurationCriteria(Integer year, Integer duration) {
+		return movieRepository.getAllMoviesByYearAndDuration(year, duration);
+	}
+
 }

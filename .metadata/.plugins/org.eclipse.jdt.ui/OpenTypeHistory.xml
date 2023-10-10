@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Ej07/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.educacionit.dao{Dao.java[Dao" modifiers="513" timestamp="1695681627976"/>
+    <typeInfo handle="=ej08/C:\/Users\/Vic\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.16\/spring-data-jpa-2.7.16.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.16=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1696288433334"/>
 </typeInfoHistroy>

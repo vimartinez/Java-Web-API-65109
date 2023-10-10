@@ -4,10 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -53,6 +56,54 @@ public class MovieController {
 	})
 	public @ResponseBody Optional<Movie> getMovieById(@Parameter(description="id de la película a buscar") @PathVariable("idMovie") Long idMovie){
 		return movieService.getMovieById(idMovie);
+		
+	}
+	
+	@DeleteMapping(path="/{idMovie}", produces="application/json")
+	@Operation(summary="Borra una película de la Base de Datos", description="Debe enviar el id de la película a borrar",  tags= {"Pelis"})
+	public @ResponseBody void delMovie(@Parameter(description="id de la película a borrar") @PathVariable("idMovie") Long idMovie) {
+		movieService.delMovie(idMovie);
+	}
+	
+	
+	@PutMapping(path="/", produces="application/json")
+	@Operation(summary="Permite modificar una película", description="Debe enviar el objeto a modificar, no se puede modificar el id", tags= {"Pelis"})
+	public @ResponseBody void updMovie(Movie movie) {
+		movieService.updMovie(movie);
+	}
+	
+	@GetMapping(value="/year/{year}")
+	@Operation(summary="Devuelve un listado de películas según el año de estreno con Derived Query", description="Debe enviar el año de la peli", tags= {"Derived Querys"})
+	public @ResponseBody List<Movie> getAllMoviesByYear(@Parameter(description="Año a buscar") @PathVariable("year") Integer year){
+		return movieService.getAllMoviesByYear(year);
+		
+	}
+	
+	@GetMapping(value="/yearlessthan/{year}")
+	@Operation(summary="Devuelve un listado de películas que se estrenaron antes del año indicado", description="Debe enviar el a filtrar", tags= {"Derived Querys"})
+	public @ResponseBody List<Movie> getAllMoviesByYearLessThan(@Parameter(description="Año a buscar") @PathVariable("year") Integer year){
+		return movieService.getAllMoviesByYearLessThan(year);
+		
+	}
+	
+	@GetMapping(value="yearnative/{year}")
+	@Operation(summary="Devuelve un listado de películas de un año con Native Query", description="Listado con native query", tags= {"Native Query"})
+	public @ResponseBody List<Movie> getAllMoviesByYearNative(@Parameter(description="Año a buscar") @PathVariable("year") Integer year){
+		return movieService.getAllMoviesByYearNative(year);
+		
+	}
+	
+	@GetMapping(value="yearcriteria/{year}")
+	@Operation(summary="Devuelve un listado de películas de un año con Critera", description="Listado con criteria", tags= {"Criteria"})
+	public @ResponseBody List<Movie> getAllMoviesByYearCriteria(@Parameter(description="Año a buscar") @PathVariable("year") Integer year){
+		return movieService.getAllMoviesByYearCriteria(year);
+		
+	}
+	
+	@GetMapping(value="yearandduration/")
+	@Operation(summary="Devuelve un listado de películas por año y duración Critera", description="Listado con criteria", tags= {"Criteria"})
+	public @ResponseBody List<Movie> getAllMoviesByYearAndDurationCriteria(@RequestParam("year") Integer year, @RequestParam("duration") Integer duration){
+		return movieService.getAllMoviesByYearAndDurationCriteria(year, duration);
 		
 	}
 
