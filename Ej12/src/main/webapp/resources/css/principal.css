@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #DDDDDD;
+	margin: 0px;
+}
+
+#header{
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+	margin: auto;
+	padding:10px;
+}
+
+#headerImg{
+	display: inline-block;
+	vertical-align: middle;
+	height: 50px;
+}
+
+#headerText{
+	font-family: "Verdana";
+	font-size: 16px;
+	font-style: italic;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+
+#mainText{
+	margin: 20px;
+	text-align: center;
+	font-family: "Verdana";
+}
+
+#contenidoPrincipal{
+	padding: 10px;
+	text-align: center;
+}

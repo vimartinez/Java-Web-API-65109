@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.eduacionit.conf.MySQLConnection"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.core.Response.Status"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
     <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
     <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="org.json.JSONObject"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.educacionit.ej09.dto.MovieDTO"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+    <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
 </qualifiedTypeNameHistroy>

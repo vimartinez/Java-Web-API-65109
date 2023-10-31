@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Ej12-2"/>
+			<item value="Ej12"/>
+			<item value="Ej11-2"/>
+			<item value="ej11"/>
 			<item value="Ej07"/>
 			<item value="Ej06"/>
 			<item value="Ej01"/>
@@ -9,6 +13,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Ej12-2"/>
+			<item value="Ej12"/>
+			<item value="Ej11-2"/>
+			<item value="ej11"/>
 			<item value="Ej07"/>
 			<item value="Ej06"/>
 			<item value="Ej01"/>
