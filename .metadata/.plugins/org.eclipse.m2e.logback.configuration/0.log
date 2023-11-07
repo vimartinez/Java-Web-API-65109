@@ -4249,3 +4249,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (1) references 
 2023-10-30 22:07:52,945 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej12-2\src\main\resources
 2023-10-30 22:07:52,945 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-10-30 22:07:52,945 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej12-2\src\test\resources
+2023-11-06 19:07:27,544 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-06 19:07:30,287 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-06 19:07:30,293 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej12-2\src\main\resources
+2023-11-06 19:07:30,296 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-06 19:07:30,313 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EducacionIT\Java Web API\65109\Java-Web-API-65109\Ej12-2\src\test\resources
